@@ -1,0 +1,118 @@
+﻿<Page x:Class="StudClient.RegisterPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="275" d:DesignWidth="600"
+      WindowHeight="305"
+      WindowWidth="610"
+	Title="RegisterPage" Loaded="Page_Initialized">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="#FFBFD7EC" Offset="0"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        
+        <TextBox  MinWidth="160"  VerticalAlignment="Top" HorizontalAlignment="Left" x:Name="LoginBox" FontSize="18" Margin="26,30,0,0" Height="30"/>
+        <TextBlock IsHitTestVisible="False" VerticalAlignment="Top" FontSize="18" Text="Логін" HorizontalAlignment="Left" Margin="29,30,0,0" Foreground="DarkGray" Height="30" Width="80">
+            <TextBlock.Style>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Text, ElementName=LoginBox}" Value="">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        <PasswordBox  MinWidth="160"  VerticalAlignment="Top" HorizontalAlignment="Left" x:Name="PasswordBox" FontSize="18" Margin="207,30,0,0" Height="30"/>
+        <TextBlock IsHitTestVisible="False" VerticalAlignment="Top" FontSize="18" Text="Пароль" HorizontalAlignment="Left" Margin="207,30,0,0" Foreground="DarkGray" Height="30" Width="80">
+            <TextBlock.Style>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Password, ElementName=PasswordBox}" Value="">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        <PasswordBox  MinWidth="160"  VerticalAlignment="Top" HorizontalAlignment="Left" x:Name="PasswordRepeatBox" FontSize="18" Margin="390,30,0,0" Height="30"/>
+        <TextBlock IsHitTestVisible="False" VerticalAlignment="Top" FontSize="18" Text="Повторіть пароль" HorizontalAlignment="Left" Margin="390,30,0,0" Foreground="DarkGray" Height="30" Width="150">
+            <TextBlock.Style>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Password, ElementName=PasswordRepeatBox}" Value="">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        <TextBox  MinWidth="160"  VerticalAlignment="Top" HorizontalAlignment="Left" x:Name="LastNameBox" FontSize="18" Margin="26,83,0,0" Height="30"/>
+        <TextBlock IsHitTestVisible="False" VerticalAlignment="Top" FontSize="18" Text="Прізвище" HorizontalAlignment="Left" Margin="29,83,0,0" Foreground="DarkGray" Height="30" Width="80">
+            <TextBlock.Style>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Text, ElementName=LastNameBox}" Value="">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        <TextBox  MinWidth="160"  VerticalAlignment="Top" HorizontalAlignment="Left" x:Name="FirstNameBox" FontSize="18" Margin="207,83,0,0" Height="30"/>
+        <TextBlock IsHitTestVisible="False" VerticalAlignment="Top" FontSize="18" Text="Ім'я" HorizontalAlignment="Left" Margin="210,83,0,0" Foreground="DarkGray" Height="30" Width="80">
+            <TextBlock.Style>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Text, ElementName=FirstNameBox}" Value="">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        <TextBox  MinWidth="160"  VerticalAlignment="Top" HorizontalAlignment="Left" x:Name="SecondNameBox" FontSize="18" Margin="390,83,0,0" Height="30"/>
+        <TextBlock IsHitTestVisible="False" VerticalAlignment="Top" FontSize="18" Text="По-батькові" HorizontalAlignment="Left" Margin="393,83,0,0" Foreground="DarkGray" Height="30" Width="110">
+            <TextBlock.Style>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Text, ElementName=SecondNameBox}" Value="">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        <TextBox  MinWidth="160"   VerticalAlignment="Top" HorizontalAlignment="Left" x:Name="RecordBookBox" FontSize="18" Margin="26,138,0,0" Height="30" />
+        <TextBlock IsHitTestVisible="False" VerticalAlignment="Top" FontSize="18" Text="Номер залікової" HorizontalAlignment="Left" Margin="26,138,0,0" Foreground="DarkGray" Height="30" Width="140">
+            <TextBlock.Style>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Text, ElementName=RecordBookBox}" Value="">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        <ComboBox IsEditable="True" IsReadOnly="True" FontSize="18" x:Name="FacultyBox" Text="Факультет" HorizontalAlignment="Left" Margin="207,138,0,0" VerticalAlignment="Top" Width="160" Height="30"/>
+        <ComboBox IsEditable="True" IsReadOnly="True" FontSize="18" x:Name="GroupBox" Text="Група" HorizontalAlignment="Left" Margin="390,138,0,0" VerticalAlignment="Top" Width="160" Height="30"/>
+        <Button x:Name="BackButton" Content="Назад"  FontSize="16" HorizontalAlignment="Left" Margin="26,216,0,0" VerticalAlignment="Top" Width="150" Height="32" Click="BackButton_Click"/>
+        <Button x:Name="RegisterButton" Content="Зареєструватись" FontSize="16" HorizontalAlignment="Left" Margin="400,216,0,0" VerticalAlignment="Top" Width="150" Height="32" Click="RegisterButton_Click"/>
+        
+    </Grid>
+
+</Page>

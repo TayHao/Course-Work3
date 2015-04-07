@@ -1,0 +1,5 @@
+D:\Documents\Visual Studio 2013\Projects\Course Work\CAccounts\CAccounts\bin\Debug\CAccounts.dll
+D:\Documents\Visual Studio 2013\Projects\Course Work\CAccounts\CAccounts\bin\Debug\CAccounts.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\CAccounts\CAccounts\obj\Debug\CAccounts.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\Course Work\CAccounts\CAccounts\obj\Debug\CAccounts.dll
+D:\Documents\Visual Studio 2013\Projects\Course Work\CAccounts\CAccounts\obj\Debug\CAccounts.pdb

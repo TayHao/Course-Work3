@@ -1,0 +1,28 @@
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\ServerV1\ServerV1\bin\Debug\ServerV1.exe.config
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\ServerV1\ServerV1\bin\Debug\ServerV1.exe
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\ServerV1\ServerV1\bin\Debug\ServerV1.pdb
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\ServerV1\ServerV1\obj\Debug\ServerV1.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\ServerV1\ServerV1\obj\Debug\ServerV1.Properties.Resources.resources
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\ServerV1\ServerV1\obj\Debug\ServerV1.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\ServerV1\ServerV1\obj\Debug\ServerV1.exe
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\ServerV1\ServerV1\obj\Debug\ServerV1.pdb
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\ServerV1\ServerV1\obj\Debug\ServerV1.Form1.resources
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\ServerV1\ServerV1\bin\Debug\MSG.dll
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\ServerV1\ServerV1\bin\Debug\MSG.pdb
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\ServerV1\ServerV1\bin\Debug\GeneralClasses.dll
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\ServerV1\ServerV1\bin\Debug\GeneralClasses.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\bin\Debug\ServerV1.exe.config
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\obj\Debug\ServerV1.exe
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\obj\Debug\ServerV1.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\obj\Debug\ServerV1.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\obj\Debug\ServerV1.Form1.resources
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\obj\Debug\ServerV1.Properties.Resources.resources
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\obj\Debug\ServerV1.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\bin\Debug\ServerV1.exe
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\bin\Debug\ServerV1.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\bin\Debug\CAccounts.dll
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\bin\Debug\MSG.dll
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\bin\Debug\ProjectType.dll
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\bin\Debug\CAccounts.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\bin\Debug\MSG.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\ServerV1\ServerV1\bin\Debug\ProjectType.pdb

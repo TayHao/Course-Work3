@@ -1,0 +1,46 @@
+I:\smth\programmin\c#\StudClient\StudClient\bin\Debug\StudClient.exe.config
+I:\smth\programmin\c#\StudClient\StudClient\bin\Debug\StudClient.exe
+I:\smth\programmin\c#\StudClient\StudClient\bin\Debug\StudClient.pdb
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\StudClient.csprojResolveAssemblyReference.cache
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\MainWindow.baml
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\MainWindow.g.cs
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\App.g.cs
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\StudClient_MarkupCompile.cache
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\StudClient.g.resources
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\StudClient.Properties.Resources.resources
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\StudClient.csproj.GenerateResource.Cache
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\StudClient.exe
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\StudClient.pdb
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\SettingsPage.baml
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\SettingsPage.g.cs
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\StartPage.baml
+I:\smth\programmin\c#\StudClient\StudClient\obj\Debug\StartPage.g.cs
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\bin\Debug\StudClient.exe.config
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\StudClient.exe
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\StudClient.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\bin\Debug\StudClient.exe
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\bin\Debug\StudClient.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\StudClient.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\MainWindow.baml
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\StartPage.baml
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\MainWindow.g.cs
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\StartPage.g.cs
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\App.g.cs
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\StudClient_MarkupCompile.cache
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\StudClient.g.resources
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\StudClient.Properties.Resources.resources
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\StudClient.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\bin\Debug\CAccounts.dll
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\bin\Debug\DataBaseUtilities.dll
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\bin\Debug\MSG.dll
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\bin\Debug\ProjectType.dll
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\bin\Debug\CAccounts.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\bin\Debug\DataBaseUtilities.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\bin\Debug\MSG.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\bin\Debug\ProjectType.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\RegisterPage.baml
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\RegisterPage.g.cs
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\SettingsWindow.baml
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\SettingsWindow.g.cs
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\AccountWindow.baml
+D:\Documents\Visual Studio 2013\Projects\Course Work\StudClient\StudClient\StudClient\obj\Debug\AccountWindow.g.cs

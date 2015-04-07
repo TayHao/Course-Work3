@@ -1,0 +1,65 @@
+﻿<Page x:Class="StudClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Student Client" WindowHeight="650" WindowWidth="1100" ShowsNavigationUI="False"
+        >
+    <Grid x:Name="MainGrid"
+     >
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="#FFBFD7EC" Offset="0"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="411*"/>
+            <RowDefinition Height="25"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="212"/>
+            <ColumnDefinition Width="835*" MinWidth="500"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="Projects" HorizontalAlignment="Left"  Grid.Row="1" VerticalAlignment="Stretch" Width="212" Opacity="0.6" FontSize="16" SelectionChanged="Projects_SelectionChanged"/>
+        <Menu x:Name="MainMenu" HorizontalAlignment="Stretch" Grid.Row="0" VerticalAlignment="Stretch"  IsMainMenu="True" Opacity="0.75" Grid.ColumnSpan="2">
+            <MenuItem x:Name="SettingsMenu" Header="Налаштування" Height="24">
+                <MenuItem x:Name="ConfigSettings" Header="Налаштування підключення" Click="SettingsMenu_Click"/>
+                <MenuItem x:Name="AccountSettings" Header="Налаштування облікового запису" Click="AccountMenu_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="QuitMenu" Header="Вихід" Click="QuitMenu_Click"/>
+        </Menu>
+        <TabControl x:Name="ProjectTabs" Margin="3,0,3,0" Grid.Row="1" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+            <TabItem x:Name="GeneralInfoTab" Header="Проект" Width="120">
+                <Grid x:Name="GiGrid">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25*" MinHeight="125"/>
+                        <RowDefinition Height="15*" MinHeight="75"/>
+                        <RowDefinition Height="60*" MinHeight="300"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="ProjectDescription" FontSize="14" TextWrapping="Wrap" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="0" Margin="3,3,3,3"/>
+                    <TextBlock x:Name="ProjectInfo" FontSize="14" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" Margin="3,3,3,3"/>
+                    <DataGrid x:Name="EventsGrid"  HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2"  Margin="3,3,3,3" IsReadOnly="True" SelectionChanged="Row_Click" />
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="EventsTab" Header="Івент" Width="120">
+                <Grid x:Name="EGrid">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="15*" MinHeight="75"/>
+                        <RowDefinition Height="30*" MinHeight="150"/>
+                        <RowDefinition Height="45*" MinHeight="225"/>
+                        <RowDefinition Height="10*" MinHeight="50"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="ThemeLabel" Content="Тема:" Grid.Row="0" FontSize="16" Margin="10,0,0,0" FontWeight="Bold"/>
+                    <TextBlock x:Name="Theme" FontSize="14" TextWrapping="Wrap" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,30,3,3"/>
+                    <Label x:Name="DescriptionLabel" Content="Опис завдання:" Grid.Row="1" FontSize="16" Margin="10,0,0,0" FontWeight="Bold"/>
+                    <TextBlock x:Name="EventDescription" FontSize="14" TextWrapping="Wrap" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,30,3,3"/>
+                    <TextBlock x:Name="EventInfo" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="3,3,3,3"/>
+                    <Button x:Name="DownloadFile" Content="Завантажити завдання" Width="150" Height="32" Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,8,0,0"/>
+                    <Button x:Name="UploadFile" Width="150" Content="Відправити файл" Height="32" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,8,0,0"/>
+                    <Button x:Name="OpenChat" Width="150" Content="Відкрити чат" Height="32" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,8,10,0"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Page>

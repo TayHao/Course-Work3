@@ -1,0 +1,9 @@
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\MSG\MSG\bin\Debug\MSG.dll
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\MSG\MSG\bin\Debug\MSG.pdb
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\MSG\MSG\obj\Debug\MSG.dll
+D:\Documents\Visual Studio 2013\Projects\Kovaluk\Project kurs 2\MSG\MSG\obj\Debug\MSG.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\MSG\MSG\bin\Debug\MSG.dll
+D:\Documents\Visual Studio 2013\Projects\Course Work\MSG\MSG\bin\Debug\MSG.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\MSG\MSG\obj\Debug\MSG.dll
+D:\Documents\Visual Studio 2013\Projects\Course Work\MSG\MSG\obj\Debug\MSG.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\MSG\MSG\obj\Debug\MSG.csprojResolveAssemblyReference.cache

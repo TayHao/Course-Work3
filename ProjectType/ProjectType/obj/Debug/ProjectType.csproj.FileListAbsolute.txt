@@ -1,0 +1,5 @@
+D:\Documents\Visual Studio 2013\Projects\Course Work\ProjectType\ProjectType\bin\Debug\ProjectType.dll
+D:\Documents\Visual Studio 2013\Projects\Course Work\ProjectType\ProjectType\bin\Debug\ProjectType.pdb
+D:\Documents\Visual Studio 2013\Projects\Course Work\ProjectType\ProjectType\obj\Debug\ProjectType.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\Course Work\ProjectType\ProjectType\obj\Debug\ProjectType.dll
+D:\Documents\Visual Studio 2013\Projects\Course Work\ProjectType\ProjectType\obj\Debug\ProjectType.pdb
